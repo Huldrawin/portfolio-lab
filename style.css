@@ -44,18 +44,18 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.about, .projects, .contact {
+.about, .skills, .projects, .contact {
     padding: 2rem;
     text-align: center;
 }
 
-.project-grid {
+.skills-grid, .project-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.project-card {
+.skill-card, .project-card {
     background-color: #fff;
     padding: 1rem;
     margin: 1rem;
@@ -70,4 +70,18 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-links li {
+    margin: 0.5rem 0;
+}
+
+.contact-links a {
+    color: #0073e6;
+    text-decoration: none;
 }
