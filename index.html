@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Analista de Datos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Transformando datos en decisiones inteligentes</h1>
+        <p>Analista de datos con experiencia en Python, SQL y visualización de datos.</p>
+        <a href="#projects" class="btn">Ver mis proyectos</a>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about" class="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre]. Me especializo en análisis de datos, machine learning y visualización de datos. Me apasiona descubrir insights ocultos en los datos y comunicarlos de manera efectiva.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Análisis de Ventas</h3>
+                <p>Análisis de tendencias de ventas usando Python y Tableau.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <!-- Añade más proyectos aquí -->
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
