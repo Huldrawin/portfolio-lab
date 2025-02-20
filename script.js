@@ -5,6 +5,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
+
+        // Cerrar el menú móvil después de hacer clic
+        if (window.innerWidth <= 768) {
+            navLinks.classList.remove('active');
+        }
     });
 });
 
