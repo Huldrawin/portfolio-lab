@@ -204,3 +204,40 @@ footer {
 .social-links a:hover {
     color: #FF9100; /* Cambio de color en hover */
 }
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para los iconos de habilidades */
+.skill-card i.skill-icon {
+    font-size: 3rem; /* Iconos más grandes */
+    color: #1A73E8;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para las estrellas */
+.stars {
+    color: #FFD700; /* Color dorado para las estrellas */
+    margin-bottom: 0.5rem;
+    font-size: 1rem; /* Tamaño de las estrellas */
+}
+
+.stars .far {
+    color: #ccc; /* Color gris para las estrellas vacías */
+}
+
+/* Estilos para los idiomas */
+.language-item {
+    display: block; /* Cada idioma en una línea */
+    margin-bottom: 0.5rem; /* Espacio entre idiomas */
+    color: #202124; /* Color del texto */
+}
+
+.language-item .stars {
+    display: inline-block; /* Estrellas al lado del texto */
+    margin-left: 0.5rem; /* Espacio entre texto y estrellas */
+}

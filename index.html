@@ -9,13 +9,14 @@
     <title>Evelyn Ayala | Analista de Datos & Visualización</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
             <div class="logo">Portafolio Profesional</div>
-            <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+            <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Ir a la sección Sobre mí">Sobre mí</a></li>
                 <li><a href="#skills" aria-label="Ir a la sección Habilidades">Habilidades</a></li>
@@ -35,6 +36,7 @@
     <!-- Sobre mí -->
     <section id="about" class="about">
         <h2>Sobre mí</h2>
+        <img src="my-photo-evelyn.png" alt="Evelyn Ayala" class="profile-photo">
         <p>
             ¡Hola! Soy Evelyn, Ingeniera de Sistemas y Analista de Datos, apasionada por convertir datos complejos en soluciones claras y aplicables para impulsar decisiones empresariales. 
             Con experiencia en visualización de datos y reportes estratégicos, mi misión es ayudar a empresas a tomar mejores decisiones.
@@ -46,28 +48,65 @@
         <h2>Habilidades Técnicas</h2>
         <div class="skills-grid">
             <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
                 <h3>Análisis de Datos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                </div>
                 <p>Python, SQL, Pandas, NumPy</p>
             </div>
             <div class="skill-card">
+                <i class="fas fa-chart-bar"></i>
                 <h3>Visualización de Datos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
                 <p>Power BI, Looker Studio</p>
             </div>
             <div class="skill-card">
+                <i class="fas fa-table"></i>
                 <h3>Hojas de Cálculo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
                 <p>Excel, Tablas dinámicas</p>
             </div>
             <div class="skill-card">
+                <i class="fas fa-code"></i>
                 <h3>Desarrollo Web</h3>
-                <p>WordPress, HTML, CSS, Elementor, JavaScript, GitHub Pages, Git</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <p>HTML, CSS, JavaScript, GitHub Pages, Git, WordPress, Elementor</p>
             </div>
             <div class="skill-card">
+                <i class="fas fa-pencil-ruler"></i>
                 <h3>Diseño UX/UI</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                </div>
                 <p>Adobe XD, Figma</p>
             </div>
             <div class="skill-card">
+                <i class="fas fa-globe"></i>
                 <h3>Idiomas</h3>
-                <p>Español, Portugués, Inglés</p>
+    <div class="language-item">
+        Español:
+        <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+    </div>
+    <div class="language-item">
+        Portugués:
+        <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+        </div>
+    </div>
+    <div class="language-item">
+        Inglés:
+        <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
             </div>
         </div>
     </section>
