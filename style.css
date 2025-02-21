@@ -21,7 +21,7 @@ header {
     padding: 1rem;
     text-align: center;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para el header */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -55,8 +55,9 @@ nav {
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-    color: #FF9100; /* Cambio de color en hover */
+.nav-links a:hover, .nav-links a:focus {
+    color: #FF9100;
+    text-decoration: underline;
 }
 
 .nav-toggle {
@@ -97,19 +98,19 @@ nav {
 .hero {
     background-color: #1A73E8;
     color: #fff;
-    padding: 6rem 2rem; /* Más espacio en el Hero */
+    padding: 6rem 2rem;
     text-align: center;
-    margin-top: -1px; /* Eliminar la línea blanca */
+    margin-top: -1px;
 }
 
 .hero h1 {
-    font-size: 2.5rem; /* Tamaño de fuente más grande */
-    margin-bottom: 1.5rem; /* Espacio entre título y párrafo */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero p {
-    font-size: 1.25rem; /* Tamaño de fuente más grande */
-    margin-bottom: 3rem; /* Más espacio entre el párrafo y el botón */
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
 }
 
 .btn {
@@ -119,15 +120,16 @@ nav {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 
-.btn:hover {
-    background-color: #E65100; /* Cambio de color en hover */
+.btn:hover, .btn:focus {
+    background-color: #FFAB40;
     transform: scale(1.05);
 }
 
 .about, .skills, .projects, .contact {
-    padding: 4rem 2rem; /* Más espacio en las secciones */
+    padding: 4rem 2rem;
     text-align: center;
 }
 
@@ -173,8 +175,8 @@ footer {
     animation: pulse 1.5s infinite;
 }
 
-.btn-whatsapp:hover {
-    background-color: #128C7E; /* Cambio de color en hover */
+.btn-whatsapp:hover, .btn-whatsapp:focus {
+    background-color: #00E676;
     transform: scale(1.05);
 }
 
@@ -201,8 +203,8 @@ footer {
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-    color: #FF9100; /* Cambio de color en hover */
+.social-links a:hover, .social-links a:focus {
+    color: #FF9100;
 }
 
 .profile-photo {
@@ -210,34 +212,32 @@ footer {
     width: 150px;
     height: 150px;
     margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para los iconos de habilidades */
 .skill-card i.skill-icon {
-    font-size: 3rem; /* Iconos más grandes */
+    font-size: 2rem;
     color: #1A73E8;
     margin-bottom: 1rem;
 }
 
-/* Estilos para las estrellas */
 .stars {
-    color: #FFD700; /* Color dorado para las estrellas */
+    color: #FFD700;
     margin-bottom: 0.5rem;
-    font-size: 1rem; /* Tamaño de las estrellas */
+    font-size: 0.8rem;
 }
 
 .stars .far {
-    color: #ccc; /* Color gris para las estrellas vacías */
+    color: #ccc;
 }
 
-/* Estilos para los idiomas */
 .language-item {
-    display: block; /* Cada idioma en una línea */
-    margin-bottom: 0.5rem; /* Espacio entre idiomas */
-    color: #202124; /* Color del texto */
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #202124;
 }
 
 .language-item .stars {
-    display: inline-block; /* Estrellas al lado del texto */
-    margin-left: 0.5rem; /* Espacio entre texto y estrellas */
+    display: inline-block;
+    margin-left: 0.5rem;
 }
