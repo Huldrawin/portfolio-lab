@@ -22,4 +22,8 @@ navToggle.addEventListener('click', () => {
     const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
     navToggle.setAttribute('aria-expanded', !isExpanded);
     navLinks.classList.toggle('active');
+    navToggle.textContent = isExpanded ? '☰' : '✖'; // Cambia el ícono
 });
+
+// Año dinámico en el footer
+document.querySelector('footer p').textContent = `© ${new Date().getFullYear()} Evelyn Ayala. Hecho con ❤️ por mí.`;
