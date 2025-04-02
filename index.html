@@ -170,5 +170,16 @@
     <script src="script.js"></script>
     <script data-goatcounter="https://evelyn-portfolio.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    <script>
+        // Forzar la actualización del contador
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof window.goatcounter !== 'undefined') {
+                window.goatcounter.count({
+                    event: "pageview",
+                    path: location.pathname,
+                });
+            }
+        });
+    </script>
 </body>
 </html>
