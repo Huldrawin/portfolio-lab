@@ -26,4 +26,4 @@ navToggle.addEventListener('click', () => {
 });
 
 // Año dinámico en el footer
-document.querySelector('footer p').textContent = `© ${new Date().getFullYear()} Evelyn Ayala. Hecho con ❤️ por mí.`;
+document.querySelector('footer p:first-child').textContent = `© ${new Date().getFullYear()} Evelyn Ayala. Hecho con ❤️ por mí.`;
