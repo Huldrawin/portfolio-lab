@@ -278,8 +278,10 @@ footer p {
 #visit-counter div {
     background: none; /* Elimina el fondo blanco */
     border: none;    /* Elimina el borde negro */
-    padding: 0;      /* Elimina el padding para que el número esté más cerca del texto */
-    display: inline; /* Muestra el contador en línea con el texto "Visitas totales" */
+    padding: 0;      /* Elimina el padding */
+    margin: 0;       /* Asegura que no haya márgenes adicionales */
+    display: inline; /* Muestra el contador en línea */
+    line-height: 1;  /* Asegura que la altura de línea sea consistente */
 }
 
 #visit-counter #gcvc-for {
@@ -290,5 +292,6 @@ footer p {
     color: #FFFFFF; /* Blanco para que coincida con el footer */
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem; /* Ajusta el tamaño del texto si es necesario */
+    font-size: 1rem; /* Tamaño del texto */
+    margin-left: 5px; /* Añade un pequeño espacio a la izquierda para separar del texto "Visitas totales" */
 }
