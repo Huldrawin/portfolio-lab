@@ -276,19 +276,19 @@ footer p {
 
 /* Estilo para el contador de GoatCounter */
 #visit-counter div {
-    background: none; /* Elimina el fondo por defecto */
-    border: none;    /* Elimina el borde por defecto */
-    color: #FFFFFF;  /* Blanco para que coincida con el footer */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    display: inline; /* Muestra el contador en línea con el texto */
+    background: none; /* Elimina el fondo blanco */
+    border: none;    /* Elimina el borde negro */
+    padding: 0;      /* Elimina el padding para que el número esté más cerca del texto */
+    display: inline; /* Muestra el contador en línea con el texto "Visitas totales" */
 }
 
 #visit-counter #gcvc-for {
-    display: none; /* Oculta el texto "Views for this page" */
+    display: none; /* Oculta el texto "Views for this site" */
 }
 
 #visit-counter #gcvc-views {
-    color: #FFFFFF; /* Blanco para el número de visitas */
+    color: #FFFFFF; /* Blanco para que coincida con el footer */
     font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem; /* Ajusta el tamaño del texto si es necesario */
 }
