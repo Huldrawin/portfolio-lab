@@ -271,3 +271,9 @@ footer p span[data-goatcounter-count] {
     display: inline-block;
     margin-left: 0.5rem;
 }
+
+#visit-counter {
+    color: #FFFFFF; /* Blanco para que coincida con el footer */
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
