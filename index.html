@@ -165,7 +165,7 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Evelyn Ayala. Hecho con ❤️ por mí.</p>
-        <p>Visitas totales: <span id="visit-counter"></span></p>
+    <p>Visitas totales: <span id="visit-counter"></span></p>
     </footer>
 
     <script src="script.js"></script>
@@ -179,7 +179,12 @@
                     append: '#visit-counter', // Inserta el contador en el <span> con id="visit-counter"
                     path: 'TOTAL',           // Muestra el total de visitas al sitio
                     type: 'html',            // Usa HTML para personalizar con CSS
-                    no_branding: true        // Omite el branding "by GoatCounter"
+                    no_branding: true,       // Omite el branding "by GoatCounter"
+                    style: `
+                        div { background: none; border: none; padding: 0; margin: 0; display: inline; line-height: 1; text-align: left; color: #FFFFFF; }
+                        #gcvc-for { display: none; }
+                        #gcvc-views { color: #FFFFFF; font-weight: 600; font-family: 'Open Sans', sans-serif; font-size: 1rem; margin-left: 5px; }
+                    `
                 });
             }
         }, 100);
