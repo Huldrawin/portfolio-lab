@@ -276,22 +276,24 @@ footer p {
 
 /* Estilo para el contador de GoatCounter */
 #visit-counter div {
-    background: none; /* Elimina el fondo blanco */
-    border: none;    /* Elimina el borde negro */
-    padding: 0;      /* Elimina el padding */
-    margin: 0;       /* Asegura que no haya márgenes adicionales */
-    display: inline; /* Muestra el contador en línea */
-    line-height: 1;  /* Asegura que la altura de línea sea consistente */
+    background: none !important; /* Elimina el fondo blanco */
+    border: none !important;    /* Elimina el borde negro */
+    padding: 0 !important;      /* Elimina el padding */
+    margin: 0 !important;       /* Asegura que no haya márgenes adicionales */
+    display: inline !important; /* Muestra el contador en línea */
+    line-height: 1 !important;  /* Asegura que la altura de línea sea consistente */
+    text-align: left !important; /* Alinea el texto a la izquierda */
+    color: #FFFFFF !important;  /* Blanco para que coincida con el footer */
 }
 
 #visit-counter #gcvc-for {
-    display: none; /* Oculta el texto "Views for this site" */
+    display: none !important; /* Oculta el texto "Views for this site" */
 }
 
 #visit-counter #gcvc-views {
-    color: #FFFFFF; /* Blanco para que coincida con el footer */
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem; /* Tamaño del texto */
-    margin-left: 5px; /* Añade un pequeño espacio a la izquierda para separar del texto "Visitas totales" */
+    color: #FFFFFF !important; /* Blanco para que coincida con el footer */
+    font-weight: 600 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1rem !important; /* Tamaño del texto */
+    margin-left: 5px !important; /* Añade un pequeño espacio a la izquierda */
 }
