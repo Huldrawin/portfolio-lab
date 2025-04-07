@@ -165,11 +165,25 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Evelyn Ayala. Hecho con ❤️ por mí.</p>
-        <p>Visitas totales: <span id="visit-counter" data-goatcounter-count="/index.html"></span></p>
+        <p>Visitas totales: <span id="visit-counter"></span></p>
     </footer>
 
     <script src="script.js"></script>
     <script data-goatcounter="https://evelyn-portfolio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+        // Espera a que el script de GoatCounter se cargue antes de llamar a visit_count
+        var t = setInterval(function() {
+            if (window.goatcounter && window.goatcounter.visit_count) {
+                clearInterval(t);
+                window.goatcounter.visit_count({
+                    append: '#visit-counter', // Inserta el contador en el <span> con id="visit-counter"
+                    path: '/index.html',      // Especifica la ruta de la página
+                    type: 'html',            // Usa HTML para personalizar con CSS
+                    no_branding: true        // Omite el branding "by GoatCounter"
+                });
+            }
+        }, 100);
+    </script>
 
     
 </body>
