@@ -186,10 +186,6 @@ footer {
 footer p {
     margin: 0.5rem 0;
 }
-footer p span[data-goatcounter-count] {
-    color: #FFFFFF; /* Blanco */
-    font-weight: 600;
-}
 
 .btn-whatsapp {
     display: inline-flex;
