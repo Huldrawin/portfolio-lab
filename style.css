@@ -33,6 +33,18 @@ nav {
     padding: 0 1rem;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
 .logo {
     font-size: 1.25rem;
     font-weight: 600;
@@ -98,7 +110,7 @@ nav {
 .hero {
     background-color: #1A73E8;
     color: #fff;
-    padding: 6rem 2rem;
+    padding: 6rem 0;
     text-align: center;
     margin-top: -1px;
 }
@@ -144,7 +156,7 @@ nav {
 }
 
 .about, .skills, .projects, .contact {
-    padding: 4rem 2rem;
+    padding: 4rem 0; 
     text-align: center;
 }
 
@@ -184,7 +196,7 @@ footer {
     background-color: #1A73E8;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
     margin-top: 2rem;
 }
 
